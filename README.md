@@ -17,5 +17,14 @@ sudo chmod +x starttraining.sh
 
 ./starttraining.sh
 ```
+
+```
+```
+curl -LO https://raw.com/starttraining/Set-Up-an-App-Dev-Environment-on-Google-Cloud-Challenge-Lab/blob/main/starttraining.sh
+
+sudo chmod +x starttraining.sh
+
+./starttraining.sh
+```
  
  
