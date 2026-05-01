@@ -13,9 +13,9 @@ export FUNCTION=
 ```
 curl -LO https://raw.githubusercontent.com/starttraining/Set-Up-an-App-Dev-Environment-on-Google-Cloud-Challenge-Lab/main/starttraining.sh
 
-sudo chmod +x gsp315.sh
+sudo chmod +x starttraining.sh
 
-./gsp315.sh
+./starttraining.sh
 ```
  
  
