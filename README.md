@@ -11,7 +11,7 @@ export TOPIC=
 export FUNCTION=
 ```
 ```
-curl -LO https://github.com/starttraining/Set-Up-an-App-Dev-Environment-on-Google-Cloud-Challenge-Lab/blob/main/gsp315.sh
+curl -LO https://raw.githubusercontent.com/starttraining/Set-Up-an-App-Dev-Environment-on-Google-Cloud-Challenge-Lab/main/gsp315.sh
 
 sudo chmod +x gsp315.sh
 
