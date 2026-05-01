@@ -20,9 +20,15 @@ sudo chmod +x starttraining.sh
 
 ```
 ```
-curl -LO https://raw.com/starttraining/Set-Up-an-App-Dev-Environment-on-Google-Cloud-Challenge-Lab/blob/main/starttraining.sh
+rm -f starttraining.sh
 
-sudo chmod +x starttraining.sh
+curl -LO https://raw.githubusercontent.com/starttraining/Set-Up-an-App-Dev-Environment-on-Google-Cloud-Challenge-Lab/main/gsp315.sh
+
+mv gsp315.sh starttraining.sh
+
+sed -i 's/\r$//' starttraining.sh
+
+chmod +x starttraining.sh
 
 ./starttraining.sh
 ```
