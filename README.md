@@ -9,6 +9,11 @@ export USER_2=
 export ZONE=
 export TOPIC=
 export FUNCTION=
+gcloud config set project <project id>
+
+gcloud beta services identity create \
+  --service=pubsub.googleapis.com \
+  --project=<project id>
 
 ```
 ```
